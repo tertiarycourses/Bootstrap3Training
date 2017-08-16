@@ -6,6 +6,7 @@ These are the exercise files used for [Bootstrap 3 Essential Training](https://w
 The course outline can be found in 
 
 https://www.tertiarycourses.com.sg/responsive-web-design-using-bootstrap3-training-in-singapore.html
+https://www.tertiarycourses.com.my/responsive-web-design-using-bootstrap3-training-in-malaysia.html
 
 <p><strong>Module 1. Getting Started</strong></p>
 <ul>
