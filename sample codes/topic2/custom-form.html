@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap 4 Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>Stacked form</h2>
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+
+      <div class="container mt-3">
+        <h2>Custom Checkbox</h2>
+        <p>To create a custom checkbox, wrap a container element, like div, with a class of .custom-control and .custom-checkbox around the checkbox. Then add the .custom-control-input to the checkbox.</p>
+        <p><strong>Tip:</strong> If you use labels for accompanying text, add the .custom-control-label class to it. Note that the value of the for attribute should match the id of the checkbox:</p>
+        <form action="/action_page.php">
+          <div class="custom-control custom-checkbox mb-3">
+            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+            <label class="custom-control-label" for="customCheck">Custom checkbox</label>
+          </div>
+          <input type="checkbox" id="defaultCheck" name="example2">
+          <label for="defaultCheck">Default checkbox</label>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Custom Checkbox</h2>
+        <p>To create a custom checkbox, wrap a container element, like div, with a class of .custom-control and .custom-checkbox around the checkbox. Then add the .custom-control-input to the checkbox.</p>
+        <p><strong>Tip:</strong> If you use labels for accompanying text, add the .custom-control-label class to it. Note that the value of the for attribute should match the id of the checkbox:</p>
+        <form action="/action_page.php">
+          <div class="custom-control custom-checkbox mb-3">
+            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+            <label class="custom-control-label" for="customCheck">Custom checkbox</label>
+          </div>
+          <input type="checkbox" id="defaultCheck" name="example2">
+          <label for="defaultCheck">Default checkbox</label>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="container">
+        <h2>Custom Switch</h2>
+        <p>To create a custom "toggle switch", wrap a container element, like div, with a class of .custom-control and .custom-switch around a checkbox. Then add the .custom-control-input class to the checkbox:</p>
+                                              
+        <form action="/action_page.php">
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="switch1" name="example">
+            <label class="custom-control-label" for="switch1">Toggle me</label>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Custom Radio Buttons</h2>
+        <p>To create a custom radio button, wrap a container element, like div, with a class of .custom-control and .custom-radio around the radio button. Then add the .custom-control-input to the radio button.</p>
+        <p><strong>Tip:</strong> If you use labels for accompanying text, add the .custom-control-label class to it. Note that the value of the for attribute should match the id of the radio:</p>
+        <form action="/action_page.php">
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="customRadio" name="example1">
+            <label class="custom-control-label" for="customRadio">Custom radio</label>
+          </div>    
+          <input type="radio" id="defaultRadio" name="example2">
+          <label for="defaultRadio">Default radio</label>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Inline Custom Form Controls</h2>
+        <p>If you want the custom form controls to sit side by side (inline), add the .custom-control-inline to the wrapper/container:</p>
+        <form action="/action_page.php">
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio1" name="example1">
+            <label class="custom-control-label" for="customRadio1">Custom radio</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio2" name="example2">
+            <label class="custom-control-label" for="customRadio2">Custom radio</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      
+      <div class="container mt-3">
+        <h2>Custom Select Menu</h2>
+        <p>To create a custom select menu, add the .custom-select class to the select element:</p>
+        <form action="/action_page.php">
+          <select name="cars" class="custom-select mb-3">
+            <option selected>Custom Select Menu</option>
+            <option value="volvo">Volvo</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="container mt-3">
+        <h2>Custom Range</h2>
+        <p>To create a custom range menu, add the .custom-range class to the input element with type="range":</p>
+        <form action="/action_page.php">
+          <label for="customRange">Custom range</label>
+          <input type="range" class="custom-range" id="customRange" name="points1">
+          <label for="defaultRange">Default range</label>
+          <input type="range" id="defaultRange" name="points2">
+          <p><button type="submit" class="btn btn-primary">Submit</button></p>
+        </form>
+      </div>
+      
+</body>
+</html>
